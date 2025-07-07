@@ -11,13 +11,13 @@
 
 ## Overview
 
-Sabbathia (formerly Lite MonkeyPrint) is designed for machines using dual-bucket 3D DLP technology. It manages model projection, mechatronics communication, and real-time parameter updates through a robust HTTP-based API.
+Sabbathia (formerly Lite MonkeyPrint) is designed for VLM machines. It manages model projection, mechatronics communication, and real-time parameter updates through a robust HTTP-based API.
 
 ---
 
 ## Key Features
 
-- Load `.vlm` files containing dual-bucket slice stacks (8K PNGs).
+- Load `.vlm` files containing dual-bucket slice stacks (8K) + print parameters.
 - Control Pulse One via HTTP using Duet/RepRap-compatible firmware.
 - Cast slices to HDMI-connected LCD in real time.
 - Modify exposure and peeling parameters mid-print.
